@@ -180,10 +180,10 @@ conn.close()
 **Tarun Burla**  
 Data Analyst | Business Intelligence Enthusiast  
 
-```text
-📧 Email: tarunburla1234@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/
-🔗 GitHub: https://github.com/
+📧 Email: [tarunburla1234@gmail.com](mailto:tarunburla1234@gmail.com)  
+🔗 LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)  
+🔗 GitHub: [https://github.com/](https://github.com/)
+
 
 
 

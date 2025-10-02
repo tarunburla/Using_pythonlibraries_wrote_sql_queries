@@ -173,3 +173,27 @@ with open("sales_data.sql", "w") as f:
 conn.close()
 
 ```
+
+---
+## Author & Contact
+
+**Tarun Burla**  
+Data Analyst | Business Intelligence Enthusiast  
+
+```text
+📧 Email: tarunburla1234@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/
+🔗 GitHub: https://github.com/
+
+
+
+
+
+
+
+
+
+
+
+
+

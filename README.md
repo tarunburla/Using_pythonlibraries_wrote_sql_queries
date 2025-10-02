@@ -1,6 +1,8 @@
 # Using_pythonlibraries_wrote_sql_queries
 # 🧾 Basic Sales Analysis with SQLite & Python
 
+
+
 _Visualizing and analyzing a tiny sales dataset using SQL inside Python_
 
 ---
@@ -18,6 +20,7 @@ _Visualizing and analyzing a tiny sales dataset using SQL inside Python_
 * <a href="#author--contact">Author & Contact</a>
 
 ---
+<img width="1332" height="825" alt="Screenshot 2025-10-02 150140" src="https://github.com/user-attachments/assets/f5df9f7b-49e3-4002-b8ec-136520890bb8" />
 
 ## Overview
 
@@ -151,7 +154,7 @@ Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (
 ## How to Run This Project
 
 1. **Open the Jupyter Notebook**  
-   Open `sales_analysis.ipynb` in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+   Open[ `sales_analysis.ipynb`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sql_python_queries.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
 
 2. **Run all cells** to:  
    - Create the SQLite database (`sales_data.db`)  

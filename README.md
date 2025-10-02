@@ -154,8 +154,9 @@ Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (
 ## How to Run This Project
 
 1. **Open the Jupyter Notebook**  
-   Open[ `sales_analysis.ipynb`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sql_python_queries.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
-    **sql query** open[ `sql_query`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sales_data.sql)
+   -Open[ `sales_analysis.ipynb`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sql_python_queries.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+    **sql query**
+   -open[ `sql_query`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sales_data.sql)
 
 3. **Run all cells** to:  
    - Create the SQLite database (`sales_data.db`)  

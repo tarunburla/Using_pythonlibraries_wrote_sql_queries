@@ -148,19 +148,28 @@ Product with Lowest Revenue:
 git clone https://github.com/your-username/sales-analysis-sqlite-python.git
 Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
 ```
-**Open the Jupyter Notebook**
-(sales_analysis.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
-**Run all cells to**:
-  -Create the SQLite database (sales_data.db)
-  -Create the sales table
-  -Insert sample data
-  -Execute SQL queries to summarize sales
-**Generate visualizations** (bar chart of Revenue by Product)
-**Optional**: Export the database to a .sql file using iterdump() for sharing or backup
-```
+## How to Run This Project
+
+1. **Open the Jupyter Notebook**  
+   Open `sales_analysis.ipynb` in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+
+2. **Run all cells** to:  
+   - Create the SQLite database (`sales_data.db`)  
+   - Create the `sales` table  
+   - Insert sample data  
+   - Execute SQL queries to summarize sales  
+
+3. **Generate visualizations**  
+   - Bar chart of Revenue by Product  
+
+4. **Optional: Export the database**  
+   Export the database to a `.sql` file using `iterdump()` for sharing or backup:
+   
+```python
 conn = sqlite3.connect("sales_data.db")
 with open("sales_data.sql", "w") as f:
     for line in conn.iterdump():
         f.write(f"{line}\n")
 conn.close()
+
 ```

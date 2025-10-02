@@ -13,7 +13,6 @@ _Visualizing and analyzing a tiny sales dataset using SQL inside Python_
 * <a href="#project-structure">Project Structure</a> 
 * <a href="#steps-performed">Steps Performed</a> 
 * <a href="#sql-queries--key-findings">SQL Queries & Key Findings</a> 
-* <a href="#visualization">Visualization</a> 
 * <a href="#export-to-sql-file">Export to SQL File</a> 
 * <a href="#how-to-run-this-project">How to Run This Project</a> 
 * <a href="#author--contact">Author & Contact</a>
@@ -141,4 +140,27 @@ Findings:-
 Product with Lowest Revenue:
    product  revenue
    Oranges     14.4
+```
+## How to Run This Project
+
+1. **Clone the repository** to your local machine:  
+```bash
+git clone https://github.com/your-username/sales-analysis-sqlite-python.git
+Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+```
+**Open the Jupyter Notebook**
+(sales_analysis.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+**Run all cells to**:
+Create the SQLite database (sales_data.db)
+Create the sales table
+Insert sample data
+Execute SQL queries to summarize sales
+**Generate visualizations** (bar chart of Revenue by Product)
+**Optional**: Export the database to a .sql file using iterdump() for sharing or backup
+```
+conn = sqlite3.connect("sales_data.db")
+with open("sales_data.sql", "w") as f:
+    for line in conn.iterdump():
+        f.write(f"{line}\n")
+conn.close()
 ```

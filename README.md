@@ -155,17 +155,18 @@ Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (
 
 1. **Open the Jupyter Notebook**  
    Open[ `sales_analysis.ipynb`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sql_python_queries.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
+    **sql query** open[ `sql_query`](https://github.com/tarunburla/Using_pythonlibraries_wrote_sql_queries/blob/main/sales_data.sql)
 
-2. **Run all cells** to:  
+3. **Run all cells** to:  
    - Create the SQLite database (`sales_data.db`)  
    - Create the `sales` table  
    - Insert sample data  
    - Execute SQL queries to summarize sales  
 
-3. **Generate visualizations**  
+4. **Generate visualizations**  
    - Bar chart of Revenue by Product  
 
-4. **Optional: Export the database**  
+5. **Optional: Export the database**  
    Export the database to a `.sql` file using `iterdump()` for sharing or backup:
    
 ```python

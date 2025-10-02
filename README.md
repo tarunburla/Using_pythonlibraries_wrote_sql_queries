@@ -151,10 +151,10 @@ Open the Jupyter Notebook (sales_analysis.ipynb) in your preferred environment (
 **Open the Jupyter Notebook**
 (sales_analysis.ipynb) in your preferred environment (Jupyter Notebook, VS Code, or Anaconda).
 **Run all cells to**:
-Create the SQLite database (sales_data.db)
-Create the sales table
-Insert sample data
-Execute SQL queries to summarize sales
+  -Create the SQLite database (sales_data.db)
+  -Create the sales table
+  -Insert sample data
+  -Execute SQL queries to summarize sales
 **Generate visualizations** (bar chart of Revenue by Product)
 **Optional**: Export the database to a .sql file using iterdump() for sharing or backup
 ```
